@@ -43,3 +43,6 @@ def User_detail(request, id):
 
 def user(request, id):
     return render(request, 'user/user.html', {'id' : id})
+
+def index(request):
+    return render(request , 'AnswerIt/home.html' , {})
